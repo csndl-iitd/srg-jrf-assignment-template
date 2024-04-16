@@ -55,6 +55,7 @@ If you were able to do all of the above, proceed to the next steps:
 - [ ] Simulate the model with a modified version of the adjacency matrix (`A` in `MBN_Res_Constrn.py` file) in which the chosen node is deleted. You can simply set the corresponding row and column connectivity to 0. Simulate a few times with different initial conditions.
 - [ ] Repeat by removing a few other key nodes, _one at a time_.
 - [ ] Make box plots for number of transitions and transition time including the full network as well as all networks that you generated after removing one node. The result should look something like this:
+
 <img src='ex-events.png' width='300'> <img src='ex-transtime.png' width='300'>
 
 ## Interpreting your results
