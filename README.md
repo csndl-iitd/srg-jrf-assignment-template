@@ -34,7 +34,7 @@ To understand their role in synchronization, we will remove these nodes from the
 There are two properties that we will examine:
 1. Frequency of tES, i.e. in a fixed amount of time, how many times do you get the tES event?
 2. Speed of synchronization propagation (i.e. how quickly does the transition from unsynchronized to synchronized state happen? See transition time in the diagram below.)
-<img src='transtime.png' width="200">
+<img src='transtime.png' width="300">
 
 ## Answering the questions
  Please follow the following steps to answer the above two questions.
@@ -55,7 +55,7 @@ If you were able to do all of the above, proceed to the next steps:
 - [ ] Simulate the model with a modified version of the adjacency matrix (`A` in `MBN_Res_Constrn.py` file) in which the chosen node is deleted. You can simply set the corresponding row and column connectivity to 0. Simulate a few times with different initial conditions.
 - [ ] Repeat by removing a few other key nodes, _one at a time_.
 - [ ] Make box plots for number of transitions and transition time including the full network as well as all networks that you generated after removing one node. The result should look something like this:
-![alt text|200](ex-events.png) ![alt text|200](ex-transtime.png)
+<img src='ex-events.png' width='300'> <img src='ex-transtime.png' width='300'>
 
 ## Interpreting your results
 All of you should attempt this based on whatever you have simulated.
