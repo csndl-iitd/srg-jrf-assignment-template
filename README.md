@@ -34,7 +34,7 @@ To understand their role in synchronization, we will remove these nodes from the
 There are two properties that we will examine:
 1. Frequency of tES, i.e. in a fixed amount of time, how many times do you get the tES event?
 2. Speed of synchronization propagation (i.e. how quickly does the transition from unsynchronized to synchronized state happen? See transition time in the diagram below.)
-![alt text|200](transtime.png)
+<img src='transtime.png' width="200">
 
 ## Answering the questions
  Please follow the following steps to answer the above two questions.
